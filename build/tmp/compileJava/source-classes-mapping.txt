@@ -1,0 +1,7 @@
+org/keycloak/broker/finops/FinOpsIdentityProvider.java
+ org.keycloak.broker.finops.FinOpsIdentityProvider
+ org.keycloak.broker.finops.FinOpsIdentityProvider$FinOpsEndpoint
+org/keycloak/broker/finops/FinOpsProviderConfig.java
+ org.keycloak.broker.finops.FinOpsProviderConfig
+org/keycloak/broker/finops/FinOpsIdentityProviderFactory.java
+ org.keycloak.broker.finops.FinOpsIdentityProviderFactory

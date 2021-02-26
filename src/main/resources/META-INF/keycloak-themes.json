@@ -1,0 +1,11 @@
+{
+  "themes": [
+    {
+      "name": "hiorgsrv-theme",
+      "types": [
+        "admin",
+        "login"
+      ]
+    }
+  ]
+}
