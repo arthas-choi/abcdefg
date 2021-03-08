@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-org.keycloak.broker.finops.FinOpsIdentityProviderFactory
+org.keycloak.broker.oidc.FinOpsIdentityProviderFactory

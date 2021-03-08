@@ -14,17 +14,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.keycloak.broker.finops;
+package org.keycloak.broker.oidc;
 
-import org.keycloak.broker.oidc.OAuth2IdentityProviderConfig;
 import org.keycloak.models.IdentityProviderModel;
 
-/**
- * Configuration for {@link FinOpsIdentityProvider}.
- *
- * @author Martin Böhmer
- */
 public class FinOpsProviderConfig extends OAuth2IdentityProviderConfig {
+
+    public FinOpsProviderConfig() {
+        super();
+    }
+
     public FinOpsProviderConfig(IdentityProviderModel model) {
         super(model);
     }

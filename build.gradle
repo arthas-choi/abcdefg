@@ -7,6 +7,7 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenLocal()
+    jcenter()
     maven {
         url = uri('http://repo.maven.apache.org/maven2')
     }
@@ -14,9 +15,10 @@ repositories {
 
 
     dependencies {
-        implementation 'org.keycloak:keycloak-services:9.0.0'
-        implementation 'org.keycloak:keycloak-server-spi:9.0.0'
-        implementation 'org.keycloak:keycloak-server-spi-private:9.0.0'
+        implementation 'org.keycloak:keycloak-services:12.0.3'
+        implementation 'org.keycloak:keycloak-server-spi:12.0.3'
+        implementation 'org.keycloak:keycloak-server-spi-private:12.0.3'
+        implementation 'org.keycloak:keycloak-saml-core:12.0.3'
     }
 
     tasks.withType(JavaCompile) {

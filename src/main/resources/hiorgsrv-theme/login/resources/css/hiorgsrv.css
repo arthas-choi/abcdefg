@@ -1,8 +1,0 @@
-/* HiOrg-Server login button */
-a.zocial.hiorgsrv, a.zocial.hiorgsrv:hover {
-    background-image: url('../img/hiorg_logo_50px.png') !important;
-    background-repeat: no-repeat !important;
-    background-position: 0.5em center !important;
-    background-size: 30px !important;
-    padding-left: 35px !important;
-}
